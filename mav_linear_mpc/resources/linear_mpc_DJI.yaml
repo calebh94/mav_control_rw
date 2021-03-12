@@ -23,11 +23,7 @@ q_y: 80
 q_z: 60
 
 q_vx: 20
-q_vy: 20
-q_vz: 25
-
-q_roll: 20
-q_pitch: 20
+	@@ -31,17 +31,17 @@ q_pitch: 20
 
 r_roll: 35
 r_pitch: 35
@@ -55,3 +51,5 @@ enable_integrator : true
 
 sampling_time: 0.01    #IMPORTANT: set this equal to the rate of odometry msg
 prediction_sampling_time: 0.1
+
+
